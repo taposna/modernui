@@ -40,3 +40,7 @@ C:\Users\badagila\Desktop\modernui\WpfApplication1\WpfApplication1\obj\Debug\Wpf
 C:\Users\badagila\Desktop\modernui\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
 C:\Users\badagila\Desktop\modernui\WpfApplication1\WpfApplication1\obj\Debug\windowLogin.g.cs
 C:\Users\badagila\Desktop\modernui\WpfApplication1\WpfApplication1\obj\Debug\windowLogin.baml
+C:\Users\badagila\Desktop\modernui\WpfApplication1\WpfApplication1\obj\Debug\windowMain.g.cs
+C:\Users\badagila\Desktop\modernui\WpfApplication1\WpfApplication1\obj\Debug\windowMain.baml
+C:\Users\badagila\Desktop\modernui\WpfApplication1\WpfApplication1\obj\Debug\pgeStudent.g.cs
+C:\Users\badagila\Desktop\modernui\WpfApplication1\WpfApplication1\obj\Debug\pgeStudent.baml
