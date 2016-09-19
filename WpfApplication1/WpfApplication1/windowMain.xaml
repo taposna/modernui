@@ -90,7 +90,7 @@
                             <ControlTemplate TargetType="{x:Type TabItem}">
                                 <Border SnapsToDevicePixels="True" Name="Border" Margin="0,30,2,0" Padding="7" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="0">
                                     <Grid>
-                                        <Path x:Name="CurrentTriangle" Width="10" Height="14" Stretch="Fill" Margin="0,0,-7,0" Fill="#FAFAFA" HorizontalAlignment="Right" Data="F1 M 287.328,237.333L 319.344,255.818L 319.344,218.849L 287.328,237.333 Z " Visibility="Collapsed" />
+                                        <Path x:Name="CurrentTriangle" Width="10" Height="14" Stretch="Fill" Margin="0,0,-10,0" Fill="#FAFAFA" HorizontalAlignment="Right" Data="F1 M 287.328,237.333L 319.344,255.818L 319.344,218.849L 287.328,237.333 Z " Visibility="Collapsed" />
                                         <ContentPresenter Name="ContentSite" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="5,5,5,5" VerticalAlignment="Center" RecognizesAccessKey="True" ContentSource="Header" />
                                     </Grid>
                                 </Border>
@@ -131,23 +131,22 @@
                     </Style.Triggers>
                 </Style>
             </TabControl.Resources>
-            <TabItem Header="HOME">
+            <TabItem Header="HOME" Margin="0,0,-2,0">
                 
             </TabItem>
-            <TabItem Header="HOME" Loaded="TabItem_Loaded">
-                <Border BorderThickness="2" BorderBrush="Black">
-                <Frame Name="wew" NavigationUIVisibility="Hidden" Margin="-2">
-                    
-                </Frame>
-                </Border>
+            <TabItem Header="STUDENT" Loaded="TabItem_Loaded" Margin="0,0,-2,0">
+                <Frame Name="wew" NavigationUIVisibility="Hidden" Margin="-16,-2,-2,-2" HorizontalAlignment="Right" Width="1187"/>
             </TabItem>
-            <TabItem Header="HOME">
+            <TabItem Header="CLASS SCHEDULE" Margin="0,0,-2,0">
 
             </TabItem>
-            <TabItem Header="HOME">
+            <TabItem Header="GRADES" Margin="0,0,-2,0">
 
             </TabItem>
-            <TabItem Header="HOME">
+            <TabItem Header="CURRICULUM" Margin="0,0,-2,0">
+
+            </TabItem>
+            <TabItem Header="SET SCHOOL YEAR" Margin="0,0,-2,0">
 
             </TabItem>
         </TabControl>
